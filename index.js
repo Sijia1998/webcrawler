@@ -9,7 +9,6 @@ const http = require('http');
 
 let server = http.createServer((req, response) => {
     
-
     let getNewsList = (done) => {
         let news = new Array();
         request('http://www.cnblogs.com', (err, res, data) => {
