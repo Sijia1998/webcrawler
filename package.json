@@ -1,0 +1,25 @@
+{
+  "name": "webcrawler",
+  "version": "1.0.0",
+  "description": "node爬虫练习",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sijia1998/webcrawler.git"
+  },
+  "author": "godlike",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sijia1998/webcrawler/issues"
+  },
+  "homepage": "https://github.com/Sijia1998/webcrawler#readme",
+  "dependencies": {
+    "async": "^2.6.1",
+    "cheerio": "^1.0.0-rc.2",
+    "request": "^2.87.0",
+    "util": "^0.11.0"
+  }
+}
